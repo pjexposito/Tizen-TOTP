@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tproject xmlns="http://www.tizen.org/tproject">
+    <platforms>
+        <platform>
+            <name>wearable-2.3.2</name>
+        </platform>
+    </platforms>
+    <package>
+        <blacklist>
+            <path value=".gitignore" type="file"/>
+            <path value="README.md" type="file"/>
+            <path value="auth_keyinfo.txt" type="file"/>
+        </blacklist>
+        <resFallback autoGen="true"/>
+    </package>
+</tproject>
